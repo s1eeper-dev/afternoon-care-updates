@@ -35,6 +35,7 @@
   ol li { counter-increment: s; position: relative; padding: 10px 0 10px 44px; border-top: 1px solid var(--line); }
   ol li::before { content: counter(s); position: absolute; left: 0; top: 10px; width: 28px; height: 28px; border-radius: 50%;
                   background: var(--tint); color: var(--navy); font-weight: 700; display: grid; place-items: center; font-size: 14px; }
+  .note { color: var(--slate); font-size: 14px; }
   details { margin-top: 22px; color: var(--slate); font-size: 14px; }
   details summary { cursor: pointer; color: var(--navy); font-weight: 600; }
   details ul { margin: 8px 0 0; padding-left: 20px; }
@@ -54,7 +55,8 @@
     <p class="sub" id="size">설치 파일(zip)</p>
     <ol>
       <li>내려받은 zip 파일의 <b>압축을 풉니다</b>.</li>
-      <li><b>[오후 돌봄 시간표 설치]</b>를 실행합니다.</li>
+      <li>풀린 폴더의 <b>[오후 돌봄 시간표 설치]</b>를 실행합니다.<br>
+        <span class="note">'Windows의 PC 보호' 창이 뜨면 <b>[추가 정보]</b> → <b>[실행]</b>을 누릅니다.</span></li>
       <li>안내받은 <b>설치 비밀번호</b>를 넣고 설치합니다.</li>
       <li>바탕화면의 <b>[오후 돌봄 시간표]</b>로 엽니다. 이후 업데이트는 자동입니다.</li>
     </ol>
